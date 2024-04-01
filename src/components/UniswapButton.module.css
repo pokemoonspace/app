@@ -1,0 +1,55 @@
+/* UniswapButton.module.css */
+.uniswapButton {
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+    margin-top: 30px;
+    justify-content: center;
+    background-color: #ff007a; /* Розовый цвет Uniswap */
+    color: #ffffff; /* Белый цвет текста */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+
+    .uniswapIcon {
+      width: 32px;
+      fill: #ffffff;
+      margin-left: 15px;
+    }
+  }
+  
+
+
+  .noNFTtext {
+    font-size: 24px;
+  }
+
+  .uniswapButton:hover {
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+    margin-top: 26px;
+    justify-content: center;
+    background-color: #ff007b00; /* Розовый цвет Uniswap */
+    color: #ff007a; /* Белый цвет текста */
+    border-color: #ff007a;
+    border: solid 2px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+
+    .uniswapIcon {
+      width: 32px;
+      fill: #ff007a;
+      margin-left: 15px;
+    }
+  }
+  
+
+
+  .noNFTtext {
+    font-size: 24px;
+  }
