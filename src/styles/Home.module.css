@@ -505,9 +505,8 @@ span.button:hover {
 	  }
   
 	  .buttonPause {
-		  height: 36px;
-		  padding: 10px;
-		  font-size: 16px;
+		  padding: 5px;
+		  font-size: 14px;
 		  border-radius: 10px;
 		  display: inline-block;
 		  font-weight: 500;
@@ -529,9 +528,8 @@ span.button:hover {
 		
 	  
 		.buttonContinue {
-		  height: 36px;
 		  padding: 5px;
-		  font-size: 16px;
+		  font-size: 14px;
 		  border-radius: 10px;
 		  display: inline-block;
 		  font-weight: 500;
