@@ -1,5 +1,6 @@
 import { useEffect, useState, useCallback } from "react";
-import { ethers, Signer } from "ethers";
+import { Signer } from "ethers";
+import Image from "next/image";
 import { useWeb3ModalProvider, useWeb3ModalAccount } from '@web3modal/ethers/react'
 import { BrowserProvider, Contract } from 'ethers'
 import PokemoonABI from "../contracts/PokemoonABI.json";
@@ -171,7 +172,7 @@ function NftRender() {
       return (
         <div key={index} className={styles.nftCard}>
           <div className={styles.imgNFT}>
-            <img src={metadata.image} alt={metadata.name} />
+            <Image src={metadata.image} width={475} height={475} alt={metadata.name} priority/>
           </div>
           <div className={styles.nameNFT}>
           <div className={styles.nameButton}>
